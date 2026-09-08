@@ -8,13 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="preview-error">
         <h1>No game selected</h1>
         <p>Go back to the overview and choose a game.</p>
-        <a href="/louisrepacks/" class="btn">← Back to overview</a>
+        <a href="./" class="btn">← Back to overview</a>
       </div>
     `;
     return;
   }
 
-  fetch('/louisrepacks/assets/data/games.json')
+  fetch('assets/data/games.json')
     .then(res => {
       if (!res.ok) throw new Error('Failed to load data');
       return res.json();
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="preview-error">
             <h1>Game not found</h1>
             <p>No game found with id: <strong>${escapeHtml(gameId)}</strong></p>
-            <a href="/louisrepacks/" class="btn">← Back to overview</a>
+            <a href="./" class="btn">← Back to overview</a>
           </div>
         `;
         return;
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <h2>Screenshots</h2>
             <div class="screenshots-grid">
               ${screenshots.map((ss, index) => `
-                <img src="/louisrepacks/${ss}" alt="Screenshot ${index + 1}" class="screenshot" loading="lazy"
+                <img src="${ss}" alt="Screenshot ${index + 1}" class="screenshot" loading="lazy"
                      data-index="${index}"
                      onerror="this.style.display='none'">
               `).join('')}
@@ -54,17 +54,17 @@ document.addEventListener('DOMContentLoaded', () => {
         : '';
 
       container.innerHTML = `
-        <a href="/louisrepacks/" class="back-link">← Back to overview</a>
+        <a href="./" class="back-link">← Back to overview</a>
 
         <div class="preview-hero">
           ${game.cover
-            ? `<img src="/louisrepacks/${game.cover}" alt="${escapeHtml(game.title)}" class="hero-cover"
+            ? `<img src="${game.cover}" alt="${escapeHtml(game.title)}" class="hero-cover"
                    onerror="this.style.display='none'">`
             : ''}
           <div class="hero-overlay">
             <div class="hero-content">
               ${game.icon
-                ? `<img src="/louisrepacks/${game.icon}" alt="Icon" class="game-icon"
+                ? `<img src="${game.icon}" alt="Icon" class="game-icon"
                        onerror="this.style.display='none'">`
                 : ''}
               <div>
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="preview-error">
           <h1>Error</h1>
           <p>Could not load game data.</p>
-          <a href="/louisrepacks/" class="btn">← Back to overview</a>
+          <a href="./" class="btn">← Back to overview</a>
         </div>
       `;
     });
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function openLightbox(index) {
       currentIndex = index;
-      lightboxImg.src = `/louisrepacks/${screenshots[currentIndex]}`;
+      lightboxImg.src = screenshots[currentIndex];
       lightbox.classList.add('active');
       document.body.style.overflow = 'hidden';
     }
@@ -171,12 +171,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showPrev() {
       currentIndex = (currentIndex - 1 + screenshots.length) % screenshots.length;
-      lightboxImg.src = `/louisrepacks/${screenshots[currentIndex]}`;
+      lightboxImg.src = screenshots[currentIndex];
     }
 
     function showNext() {
       currentIndex = (currentIndex + 1) % screenshots.length;
-      lightboxImg.src = `/louisrepacks/${screenshots[currentIndex]}`;
+      lightboxImg.src = screenshots[currentIndex];
     }
 
     closeBtn.addEventListener('click', closeLightbox);

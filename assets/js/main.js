@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
     let allGames = [];
 
-    fetch('/louisrepacks/assets/data/games.json')
+    fetch('assets/data/games.json')
         .then(res => {
             if (!res.ok) throw new Error('Failed to load data');
             return res.json();
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         grid.innerHTML = games.map(game => `
       <article class="game-card">
         ${game.cover
-          ? `<img class="game-cover" src="/louisrepacks/${game.cover}" alt="${escapeHtml(game.title)}" loading="lazy">`
+          ? `<img class="game-cover" src="${game.cover}" alt="${escapeHtml(game.title)}" loading="lazy">`
           : `<div class="game-cover placeholder">No Cover</div>`
         }
         <div class="game-body">
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ${game.size ? `<span>📦 ${escapeHtml(game.size)}</span>` : ''}
             ${game.genre ? `<span>${escapeHtml(game.genre)}</span>` : ''}
           </div>
-          <a href="/louisrepacks/preview.html?id=${encodeURIComponent(game.id || '')}" class="btn btn-full">
+          <a href="preview.html?id=${encodeURIComponent(game.id || '')}" class="btn btn-full">
             Preview & Download
           </a>
         </div>
