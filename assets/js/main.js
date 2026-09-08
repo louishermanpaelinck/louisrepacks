@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
     let allGames = [];
 
-    fetch('data.json')
+    fetch('../assets/data/games.json')
         .then(res => {
             if (!res.ok) throw new Error('Failed to load data');
             return res.json();
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <p class="desc">${escapeHtml(game.description || '')}</p>
           <div class="game-meta">
             ${game.date ? `<span>📅 ${escapeHtml(game.date)}</span>` : ''}
-            ${game.size ? `<span>💾 ${escapeHtml(game.size)}</span>` : ''}
+            ${game.size ? `<span>📦 ${escapeHtml(game.size)}</span>` : ''}
             ${game.genre ? `<span>${escapeHtml(game.genre)}</span>` : ''}
           </div>
           <a href="preview.html?id=${encodeURIComponent(game.id || '')}" class="btn btn-full">

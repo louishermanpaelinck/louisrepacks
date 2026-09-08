@@ -6,15 +6,15 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!gameId) {
     container.innerHTML = `
       <div class="preview-error">
-        <h1>Geen game geselecteerd</h1>
-        <p>Ga terug naar het overzicht en kies een game.</p>
-        <a href="/" class="btn">← Terug naar overzicht</a>
+        <h1>No game selected</h1>
+        <p>Go back to the overview and choose a game.</p>
+        <a href="../" class="btn">← Back to overview</a>
       </div>
     `;
     return;
   }
 
-  fetch('data.json')
+  fetch('../assets/data/games.json')
     .then(res => {
       if (!res.ok) throw new Error('Failed to load data');
       return res.json();
@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
         container.innerHTML = `
           <div class="preview-error">
             <h1>Game not found</h1>
-            <p>Geen game gevonden met id: <strong>${escapeHtml(gameId)}</strong></p>
-            <a href="/" class="btn">← Terug naar overzicht</a>
+            <p>No game found with id: <strong>${escapeHtml(gameId)}</strong></p>
+            <a href="../" class="btn">← Back to overview</a>
           </div>
         `;
         return;
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         : '';
 
       container.innerHTML = `
-        <a href="/" class="back-link">← Terug naar overzicht</a>
+        <a href="../" class="back-link">← Back to overview</a>
 
         <div class="preview-hero">
           ${game.cover
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="hero-meta">
                   ${game.genre ? `<span class="badge">${escapeHtml(game.genre)}</span>` : ''}
                   ${game.date ? `<span class="badge">📅 ${escapeHtml(game.date)}</span>` : ''}
-                  ${game.size ? `<span class="badge">💾 ${escapeHtml(game.size)}</span>` : ''}
+                  ${game.size ? `<span class="badge">📦 ${escapeHtml(game.size)}</span>` : ''}
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       `;
 
-      // === LIGHTBOX FUNCTIONALITEIT ===
+      // Lightbox functionality
       if (screenshots.length > 0) {
         initLightbox(screenshots);
       }
@@ -126,8 +126,8 @@ document.addEventListener('DOMContentLoaded', () => {
       container.innerHTML = `
         <div class="preview-error">
           <h1>Error</h1>
-          <p>Kon de game data niet laden.</p>
-          <a href="/" class="btn">← Terug naar overzicht</a>
+          <p>Could not load game data.</p>
+          <a href="../" class="btn">← Back to overview</a>
         </div>
       `;
     });
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentIndex = 0;
 
-    // Open lightbox wanneer je op een screenshot klikt
+    // Open lightbox when clicking on a screenshot
     document.querySelectorAll('.screenshot').forEach(img => {
       img.addEventListener('click', () => {
         currentIndex = parseInt(img.dataset.index);
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
     prevBtn.addEventListener('click', showPrev);
     nextBtn.addEventListener('click', showNext);
 
-    // Sluiten met Escape of klikken buiten de afbeelding
+    // Close with Escape or click outside the image
     lightbox.addEventListener('click', (e) => {
       if (e.target === lightbox) closeLightbox();
     });

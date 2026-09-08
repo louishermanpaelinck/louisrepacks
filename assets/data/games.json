@@ -12,12 +12,12 @@
       "publisher": "Atari",
       "language": "English / Multi",
       "repackNotes": "Password = LouisRepacks",
-      "cover": "image/RTC/RTC3.jpg",
-      "icon": "image/RTC/Game.ico",
+      "cover": "assets/images/games/RTC/RTC3.jpg",
+      "icon": "assets/images/games/RTC/Game.ico",
       "screenshots": [
-        "image/RTC/Screen1.jpg",
-        "image/RTC/Screen2.jpg",
-        "image/RTC/Screen3.jpg"
+        "assets/images/games/RTC/Screen1.jpg",
+        "assets/images/games/RTC/Screen2.jpg",
+        "assets/images/games/RTC/Screen3.jpg"
       ],
       "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvaFFrV1JUQVkjVzlFVWx6NWpuTlFZcnpsc3ozeGZNbHRuWnZuUGFoaVBfbnpYTjBPVlFmaw=="
     },
@@ -33,12 +33,12 @@
       "publisher": "Nintendo",
       "language": "English / Multi",
       "repackNotes": "The installer is only 50MB",
-      "cover": "image/SMB/SMB.webp",
-      "icon": "image/SMB/Game.ico",
+      "cover": "assets/images/games/SMB/SMB.webp",
+      "icon": "assets/images/games/SMB/Game.ico",
       "screenshots": [
-        "image/SMB/Screen1.jpg",
-        "image/SMB/Screen2.jpg",
-        "image/SMB/Screen3.jpg"
+        "assets/images/games/SMB/Screen1.jpg",
+        "assets/images/games/SMB/Screen2.jpg",
+        "assets/images/games/SMB/Screen3.jpg"
       ],
       "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvWU1zRmdBNmEjOU1yeG1DaXJwbWJodzhYcG1WVnpCVlkzSW5rbVVGWjVBNXl1QUJFRXhuWQ=="
     },
@@ -54,12 +54,12 @@
       "publisher": "TVGS",
       "language": "English / Multi",
       "repackNotes": "Password = LouisRepacks",
-      "cover": "image/S1/S1.jpg",
-      "icon": "image/S1/Icon.jpg",
+      "cover": "assets/images/games/S1/S1.jpg",
+      "icon": "assets/images/games/S1/Game.ico",
       "screenshots": [
-        "image/S1/Screen1.jpg",
-        "image/S1/Screen2.jpg",
-        "image/S1/Screen3.jpg"
+        "assets/images/games/S1/Screen1.jpg",
+        "assets/images/games/S1/Screen2.jpg",
+        "assets/images/games/S1/Screen3.jpg"
       ],
       "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvMGRsRWlJN1MjWkJKbTJqREtvbDZrSkt0MEowWkZRQWlfLWpmUGZHOGkzelVOOFpqTWk4MA=="
     },
@@ -75,12 +75,12 @@
       "publisher": "Semiwork",
       "language": "English / Multi",
       "repackNotes": "Password = LouisRepacks",
-      "cover": "image/REPO/REPO.jpg",
-      "icon": "image/REPO/game.ico",
+      "cover": "assets/images/games/REPO/REPO.jpg",
+      "icon": "assets/images/games/REPO/Game.ico",
       "screenshots": [
-        "image/REPO/Screen1.jpg",
-        "image/REPO/Screen2.jpg",
-        "image/REPO/Screen3.jpg"
+        "assets/images/games/REPO/Screen1.jpg",
+        "assets/images/games/REPO/Screen2.jpg",
+        "assets/images/games/REPO/Screen3.jpg"
       ],
       "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvVUVWVkRheFkjRXJETHhwSnZCWmxiWEgzT3Zid0Q3OW45WHRLZGctMWR6Q3prajhjNmhlRQ=="
     },
@@ -96,12 +96,12 @@
       "publisher": "RobTop Games",
       "language": "English / Multi",
       "repackNotes": "Password = LouisRepacks",
-      "cover": "image/GD/GD.jpg",
-      "icon": "image/GD/game.ico",
+      "cover": "assets/images/games/GD/GD.jpg",
+      "icon": "assets/images/games/GD/Game.ico",
       "screenshots": [
-        "image/GD/Screen1.jpg",
-        "image/GD/Screen2.jpg",
-        "image/GD/Screen3.jpg"
+        "assets/images/games/GD/Screen1.jpg",
+        "assets/images/games/GD/Screen2.jpg",
+        "assets/images/games/GD/Screen3.jpg"
       ],
       "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvc0k4RVVDckQjTFg2cG1OYldQaTdMekxGZ3REbWkyUk9GU19vRDFaRTVtcE5oX3pma1FZMA=="
     },
@@ -117,12 +117,12 @@
       "publisher": "Annapurna Interactive",
       "language": "English",
       "repackNotes": "Password = LouisRepacks",
-      "cover": "image/STRY/Stray.jpg",
-      "icon": "image/STRY/game.ico",
+      "cover": "assets/images/games/STRY/STRY.jpg",
+      "icon": "assets/images/games/STRY/Game.ico",
       "screenshots": [
-        "image/STRY/Screen1.jpg",
-        "image/STRY/Screen2.jpg",
-        "image/STRY/Screen3.jpg"
+        "assets/images/games/STRY/Screen1.jpg",
+        "assets/images/games/STRY/Screen2.jpg",
+        "assets/images/games/STRY/Screen3.jpg"
       ],
       "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvRVY4RVhRRFojRmR2dGpxMzdGRTlSdUNBZW5xUnpjQlZFTmtld0NDWlljRUszb0tJMk1rQQ=="
     }
