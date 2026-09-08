@@ -8,13 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="preview-error">
         <h1>No game selected</h1>
         <p>Go back to the overview and choose a game.</p>
-        <a href="../" class="btn">← Back to overview</a>
+        <a href="/" class="btn">← Back to overview</a>
       </div>
     `;
     return;
   }
 
-  fetch('../assets/data/games.json')
+  fetch('assets/data/games.json')
     .then(res => {
       if (!res.ok) throw new Error('Failed to load data');
       return res.json();
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="preview-error">
             <h1>Game not found</h1>
             <p>No game found with id: <strong>${escapeHtml(gameId)}</strong></p>
-            <a href="../" class="btn">← Back to overview</a>
+            <a href="/" class="btn">← Back to overview</a>
           </div>
         `;
         return;
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         : '';
 
       container.innerHTML = `
-        <a href="../" class="back-link">← Back to overview</a>
+        <a href="/" class="back-link">← Back to overview</a>
 
         <div class="preview-hero">
           ${game.cover
@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="preview-error">
           <h1>Error</h1>
           <p>Could not load game data.</p>
-          <a href="../" class="btn">← Back to overview</a>
+          <a href="/" class="btn">← Back to overview</a>
         </div>
       `;
     });
@@ -196,10 +196,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
-const script = document.createElement("script");
-
-script.dataset.goatcounter = "https://louis.goatcounter.com/count";
-script.async = true;
-script.src = "https://gc.zgo.at/count.js";
-
-document.head.appendChild(script);

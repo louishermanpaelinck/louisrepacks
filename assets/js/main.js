@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
     let allGames = [];
 
-    fetch('../assets/data/games.json')
+    fetch('assets/data/games.json')
         .then(res => {
             if (!res.ok) throw new Error('Failed to load data');
             return res.json();
@@ -66,10 +66,3 @@ document.addEventListener('DOMContentLoaded', () => {
         return div.innerHTML;
     }
 });
-const script = document.createElement("script");
-
-script.dataset.goatcounter = "https://louis.goatcounter.com/count";
-script.async = true;
-script.src = "https://gc.zgo.at/count.js";
-
-document.head.appendChild(script);
