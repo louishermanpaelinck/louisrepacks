@@ -26,6 +26,8 @@ jobs:
           mkdir -p _site
           cp index.html _site/
           cp preview.html _site/
+          cp CNAME _site/
+          cp .nojekyll _site/
           cp -r assets/ _site/
           cp -r help/ _site/
           cp -r about/ _site/
