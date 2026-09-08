@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Preview – Louis' Repacks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <img src="/logo.png" alt="Louis' Repacks">
+                <div class="logo-text">Louis' <span>Repacks</span></div>
+            </a>
+            <nav>
+                <a href="/">Games</a>
+                <a href="/help">Help</a>
+                <a href="/about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="previewContent">
+            <div class="loading">Loading game...</div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Louis’ Repacks · Educational use only · Please support the original developers.</p>
+    </footer>
+
+    <script src="preview.js"></script>
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">×</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</button>
+        <img src="" alt="Screenshot" class="lightbox-img" id="lightboxImg">
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">›</button>
+    </div>
+</body>
+
+</html>

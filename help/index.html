@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help – Louis' Repacks</title>
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .help-content {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    .help-content h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .help-content .intro {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .help-section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .help-section h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .help-section p {
+      color: var(--muted);
+      line-height: 1.7;
+      margin-bottom: 1rem;
+    }
+
+    .help-section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .help-section ol,
+    .help-section ul {
+      color: var(--muted);
+      padding-left: 1.4rem;
+      margin-bottom: 1rem;
+      line-height: 1.7;
+    }
+
+    .help-section li {
+      margin-bottom: 0.45rem;
+    }
+
+    .note {
+      background: rgba(123, 92, 255, 0.1);
+      border-left: 3px solid var(--accent);
+      padding: 1rem 1.2rem;
+      border-radius: 0 8px 8px 0;
+      color: var(--text);
+      font-size: 0.95rem;
+      margin-top: 1.25rem;
+    }
+
+    .download-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo">
+        <img src="/logo.png" alt="Louis' Repacks">
+        <div class="logo-text">Louis' <span>Repacks</span></div>
+      </a>
+      <nav>
+        <a href="/">Games</a>
+        <a href="/help" class="active">Help</a>
+        <a href="/about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="help-content">
+      <h1>Help & Instructions</h1>
+      <p class="intro">
+        Everything you need to know to download and install the repacks correctly.
+      </p>
+
+      <!-- How to download -->
+      <div class="help-section">
+        <h2>1. How to download</h2>
+        <ol>
+          <li>Go to the game page and click <strong>Download Now</strong>.</li>
+          <li>You will be redirected to Mega.nz (or another host).</li>
+          <li>Click the download button on the host site and wait until the file is fully downloaded.</li>
+        </ol>
+        <div class="note">
+          Tip: Use a download manager (like JDownloader or Free Download Manager) for more stable downloads.
+        </div>
+      </div>
+
+      <!-- RAR files -->
+      <div class="help-section">
+        <h2>2. Opening the RAR files</h2>
+        <p>
+          All repacks are compressed as <strong>.RAR</strong> files to keep the size as small as possible.
+          To open these files you need a program that can extract RAR archives.
+        </p>
+        <p>
+          We recommend using <strong>WinRAR</strong> (Windows) or <strong>7-Zip</strong>.
+        </p>
+
+        <p><strong>Recommended:</strong></p>
+        <a href="https://www.win-rar.com/download.html" target="_blank" rel="noopener" class="btn download-btn">
+          Download WinRAR
+        </a>
+        <a href="https://www.7-zip.org/" target="_blank" rel="noopener" class="btn btn-secondary download-btn" style="margin-left: 0.6rem;">
+          Download 7-Zip
+        </a>
+
+        <div class="note">
+          After installing WinRAR or 7-Zip, just right-click the .RAR file → <strong>Extract Here</strong> or <strong>Extract to…</strong>
+        </div>
+      </div>
+
+      <!-- How to install -->
+      <div class="help-section">
+        <h2>3. How to install the game</h2>
+        <ol>
+          <li>Extract the RAR file using WinRAR or 7-Zip.</li>
+          <li>Open the extracted folder.</li>
+          <li>Run the <strong>Setup.exe</strong> (or the installer that is inside).</li>
+          <li>Follow the installation steps.</li>
+          <li>When the installation is finished, start the game from the shortcut or the install folder.</li>
+        </ol>
+      </div>
+
+      <!-- Common problems -->
+      <div class="help-section">
+        <h2>4. Common problems</h2>
+        <ul>
+          <li><strong>Missing DLL / Error on launch</strong> → Install the latest Visual C++ Redistributables and DirectX.</li>
+          <li><strong>Antivirus deletes files</strong> → Add an exception for the game folder (false positive is common with repacks).</li>
+          <li><strong>Game doesn't start</strong> → Run as Administrator or try compatibility mode (Windows 7 / 8).</li>
+          <li><strong>RAR file is corrupted</strong> → Re-download the file completely.</li>
+        </ul>
+      </div>
+
+      <!-- Support -->
+      <div class="help-section">
+        <h2>5. Need more help?</h2>
+        <p>
+          If something still doesn't work, make sure you followed all steps above.
+          Most issues are solved by using WinRAR and extracting the files correctly.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Louis’ Repacks · Educational use only · Please support the original developers.</p>
+  </footer>
+</body>
+</html>

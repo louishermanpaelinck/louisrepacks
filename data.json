@@ -1,0 +1,130 @@
+{
+  "games": [
+    {
+      "id": "RTC",
+      "title": "RollerCoaster Tycoon 3: Platinum",
+      "description": "Rollercoaster Tycoon 3 Platinum combines the excitement of rollercoasters with the fun of a great strategy simulation. Includes expansion packs Soaked! and Wild!",
+      "longDescription": "Build the ultimate theme park with roller coasters, water slides, and wild animals. Create thrilling attractions, manage your park, and keep your guests happy in this classic simulation game. This Platinum edition includes the full game plus both expansion packs: Soaked! and Wild!",
+      "date": "26 okt 2006",
+      "size": "2 GB",
+      "genre": "Simulation",
+      "developer": "Frontier Developments",
+      "publisher": "Atari",
+      "language": "English / Multi",
+      "repackNotes": "Password = LouisRepacks",
+      "cover": "image/RTC/RTC3.jpg",
+      "icon": "image/RTC/Game.ico",
+      "screenshots": [
+        "image/RTC/Screen1.jpg",
+        "image/RTC/Screen2.jpg",
+        "image/RTC/Screen3.jpg"
+      ],
+      "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvaFFrV1JUQVkjVzlFVWx6NWpuTlFZcnpsc3ozeGZNbHRuWnZuUGFoaVBfbnpYTjBPVlFmaw=="
+    },
+    {
+      "id": "SMB",
+      "title": "SuperMario Bros",
+      "description": "Super Mario Bros. is a side-scrolling platform game developed by the Japanese company Nintendo for the Nintendo Entertainment System",
+      "longDescription": "Super Mario Bros.[b] is a 1985 platform game developed and published by Nintendo for the Nintendo Entertainment System (NES). Directed and produced by Shigeru Miyamoto, it is the successor to the 1983 arcade game Mario Bros. and the first game in the Super Mario series. Players control Mario, or his brother Luigi in the multiplayer mode, to traverse the Mushroom Kingdom to rescue Princess Toadstool from King Koopa (later named Bowser). They traverse side-scrolling stages while avoiding hazards such as enemies and pits and collecting power-ups such as the Super Mushroom, Fire Flower, and Starman.",
+      "date": "15 mei 1987",
+      "size": "200mb",
+      "genre": "Retro",
+      "developer": "Nintendo",
+      "publisher": "Nintendo",
+      "language": "English / Multi",
+      "repackNotes": "The installer is only 50MB",
+      "cover": "image/SMB/SMB.webp",
+      "icon": "image/SMB/Game.ico",
+      "screenshots": [
+        "image/SMB/Screen1.jpg",
+        "image/SMB/Screen2.jpg",
+        "image/SMB/Screen3.jpg"
+      ],
+      "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvWU1zRmdBNmEjOU1yeG1DaXJwbWJodzhYcG1WVnpCVlkzSW5rbVVGWjVBNXl1QUJFRXhuWQ=="
+    },
+    {
+      "id": "S1",
+      "title": "Schedule I",
+      "description": "Schedule I is an upcoming open world crime simulator video game developed by Australian developer TVGS (Tyler's Video Game Studio).",
+      "longDescription": "Schedule I is an upcoming open world crime simulator video game developed by Australian developer TVGS (Tyler's Video Game Studio).[2][3] Released in early access on 24 March 2025 for Windows, the game combines business management, tactical strategy, and dark comedy as players build and expand a drug trafficking operation in the fictional city of Hyland Point. The game gained popularity from being livestreamed on Twitch and TikTok.[4]",
+      "date": "24 March 2025",
+      "size": "7GB",
+      "genre": "Simulation",
+      "developer": "TVGS",
+      "publisher": "TVGS",
+      "language": "English / Multi",
+      "repackNotes": "Password = LouisRepacks",
+      "cover": "image/S1/S1.jpg",
+      "icon": "image/S1/Icon.jpg",
+      "screenshots": [
+        "image/S1/Screen1.jpg",
+        "image/S1/Screen2.jpg",
+        "image/S1/Screen3.jpg"
+      ],
+      "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvMGRsRWlJN1MjWkJKbTJqREtvbDZrSkt0MEowWkZRQWlfLWpmUGZHOGkzelVOOFpqTWk4MA=="
+    },
+    {
+      "id": "REPO",
+      "title": "R.E.P.O.",
+      "description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires.",
+      "longDescription": "R.E.P.O. (an acronym for Retrieve, Extract and Profit Operation) is an online cooperative survival horror video game developed and published by Swedish game studio Semiwork for Windows. It was released in early access on 26 February 2025 on Steam. It is developed in the Unity game engine.",
+      "date": "26 February 2025",
+      "size": "2GB",
+      "genre": "Action",
+      "developer": "Semiwork",
+      "publisher": "Semiwork",
+      "language": "English / Multi",
+      "repackNotes": "Password = LouisRepacks",
+      "cover": "image/REPO/REPO.jpg",
+      "icon": "image/REPO/game.ico",
+      "screenshots": [
+        "image/REPO/Screen1.jpg",
+        "image/REPO/Screen2.jpg",
+        "image/REPO/Screen3.jpg"
+      ],
+      "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvVUVWVkRheFkjRXJETHhwSnZCWmxiWEgzT3Zid0Q3OW45WHRLZGctMWR6Q3prajhjNmhlRQ=="
+    },
+    {
+      "id": "GD",
+      "title": "Geometry Dash",
+      "description": "Geometry Dash is a 2013 side-scrolling rhythm platform video game developed by Swedish game developer Robert Topala and published by his company RobTop Games.",
+      "longDescription": "Geometry Dash is a 2013 side-scrolling rhythm platform video game developed by Swedish game developer Robert Topala and published by his company RobTop Games. It was released for iOS and Android in August 2013, Windows Phone in June 2014, and on Steam in December 2014. The player controls an icon and must navigate through levels while avoiding obstacles. Geometry Dash includes 26 developer-made levels: 22 are auto-scrolling, and 4 are platformer levels. It also includes a level editor, enabling players to design custom levels, share them online, and play levels created by other users.",
+      "date": "13 August 2013",
+      "size": "250MB",
+      "genre": "Platform",
+      "developer": "Robert Topala",
+      "publisher": "RobTop Games",
+      "language": "English / Multi",
+      "repackNotes": "Password = LouisRepacks",
+      "cover": "image/GD/GD.jpg",
+      "icon": "image/GD/game.ico",
+      "screenshots": [
+        "image/GD/Screen1.jpg",
+        "image/GD/Screen2.jpg",
+        "image/GD/Screen3.jpg"
+      ],
+      "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvc0k4RVVDckQjTFg2cG1OYldQaTdMekxGZ3REbWkyUk9GU19vRDFaRTVtcE5oX3pma1FZMA=="
+    },
+    {
+      "id": "STRY",
+      "title": "Stray",
+      "description": "Stray is a 2022 third-person adventure game where you play a stray cat trying to escape a walled cybercity full of robots, machines, and mutant bacteria.",
+      "longDescription": "Stray is a 2022 adventure game developed by BlueTwelve Studio and published by Annapurna Interactive. The story follows a stray cat who falls into a walled city populated by robots, machines, and mutant bacteria; the cat sets out to return to the surface with the help of a drone companion, B-12. The game is presented through a third-person perspective. The player traverses the game world by leaping across platforms and climbing up obstacles, and can interact with the environment to open new paths. Using B-12, they can store items found throughout the world and hack technology to solve puzzles. Throughout the game, the player must evade the antagonistic Zurks and Sentinels, which attempt to kill them.",
+      "date": "19 July 2022",
+      "size": "12 GB",
+      "genre": "Adventure",
+      "developer": "BlueTwelve Studio",
+      "publisher": "Annapurna Interactive",
+      "language": "English",
+      "repackNotes": "Password = LouisRepacks",
+      "cover": "image/STRY/Stray.jpg",
+      "icon": "image/STRY/game.ico",
+      "screenshots": [
+        "image/STRY/Screen1.jpg",
+        "image/STRY/Screen2.jpg",
+        "image/STRY/Screen3.jpg"
+      ],
+      "link": "https://mega.wldbs.workers.dev/download?url=aHR0cHM6Ly9tZWdhLm56L2ZpbGUvRVY4RVhRRFojRmR2dGpxMzdGRTlSdUNBZW5xUnpjQlZFTmtld0NDWlljRUszb0tJMk1rQQ=="
+    }
+  ]
+}
